@@ -1,0 +1,12 @@
+cls 
+echo Deseja mesmo fazer o backup 
+pause
+echo Fazendo backup 
+cd E:\Estudos\Alura\CMD\
+rmdir backup
+mkdir backup
+xcopy /e /y E:\Estudos\Alura\CMD\code E:\Estudos\Alura\CMD\backup
+cd E:\Estudos\Alura\CMD\backup
+dir
+echo echo Listando arquivos de Backup
+
